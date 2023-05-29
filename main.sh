@@ -26,11 +26,11 @@ CITY=$(curl -s ipinfo.io/city)
 TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 TIMES="10"
-CHATID="-1001956940889"
-KEY="6006599143:AAEgstCAioq35JgX97HaW_G3TAkLKzLZS_w"
+CHATID="-930396593"
+KEY="6063238464:AAGv4TirwKSPaWjfGjbODwaE1HMJFjcfv4k"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
-REPO="https://raw.githubusercontent.com/lynztmvn/abc/main/"
-CDNF="https://raw.githubusercontent.com/lynztmvn/abc/main"
+REPO="https://raw.githubusercontent.com/victor3232/fuckyou/main/"
+CDNF="https://raw.githubusercontent.com/victor3232/fuckyou/main"
 APT="apt-get -y install "
 domain=$(cat /root/domain)
 start=$(date +%s)
